@@ -16,14 +16,6 @@ def logger(old_function):
     return new_function
 
 
-# @logger
-# def hello_world(text, **k_text):
-#     return f'Результат работы функции: {text}, {k_text}'
-#
-#
-# print(hello_world('Hello, World!', hello='text'))
-
-
 def test_1():
     path = 'main.log'
     if os.path.exists(path):
